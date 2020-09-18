@@ -13,10 +13,10 @@ from tweepy import Stream
 #https://medium.com/@jaimezornoza/downloading-data-from-twitter-using-the-streaming-api-3ac6766ba96c
 #https://stats.seandolinar.com/collecting-twitter-data-storing-tweets-in-mongodb/
 #https://docs.mongodb.com/manual/reference/method/db.collection.insertOne/
-consumer_API_keys = "eAhu21T3S5Sim7cEMyh71T3vy"
-consumer_API_secret_key = "EvsxXK0ksOegWhCN8EQXgxErPXCwB5sqXYygP3vF73d9Ac4WqN"
-access_token = "1235039408593698818-VpevN3TCj547E6NZkJ0l6a3Fqmyrma"
-access_token_secret = "OwSMD4K36lpwy0aTfyNre3nGNcchE8fJKHEsaheYcQLsY"
+consumer_API_keys = "consumer_API_keys" #Replace this string with your key
+consumer_API_secret_key = "consumer_API_secret_key" #Replace this string with your key
+access_token = "access_token" #Replace this string with your key
+access_token_secret = "access_token_secret" #Replace this string with your key
 
 # # # CONNECT TO MONGODB # # #
 client = MongoClient( 'localhost', 27017 )
