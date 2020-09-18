@@ -4,7 +4,7 @@ import pandas as pd
 from pymongo import MongoClient
 import math
 
-API_KEY = "589c33f2e97c4b50915e3617bf49a62a"
+API_KEY = "API_KEY" #Replace this string with your key
 
 client = MongoClient( 'localhost', 27017 )
 db = client['Assignment_4']
